@@ -1,0 +1,105 @@
+Commande GIT
+
+
+# Récap commandes Git
+
+## Installer Git dans un repertoire
+
+`git init`
+
+---
+
+## Mets un fichier en Stage
+
+`git add .`
+Prends en compte tous les fichier d'un repo pour le prochain commit.
+---
+
+`git add nomDuFichier.extension`
+Prends en compte un fichier d'un repo pour le prochain commit.
+---
+
+## Faire un commit / Sauvegarder en local notre code
+
+`git commit -m "message/titre du commit`
+---
+
+## Permet de voir les fichier en stage
+
+`git status`
+
+Permet de voir si les fichiers modifiés sont bien pris en compte pour le prochain commit.
+Si les fichiers indiqués(suite à cette commande) sont en rouge, c'est qu'ils ne seront pas intégrés au commit. Si ils sont en vert, ils le seront.
+---
+
+## Envoyer notre dépot(repo/repository) local vers un dépot distant sur github
+
+`git push`
+---
+
+## Envoyer pour la première fois une branche locale vers un dépot distant github
+
+`git push -u origin nom-de-la-branche`
+
+La première fois qu'on envoie une branche sur github, il faut indiquer toutes ces informations. Pour la suite `git push`
+
+---
+
+## Indiquer ou envoyer votre travail
+
+`git remote add origin adresse_ssh_du_repo`
+
+---
+
+## Créer une copie du repertoire distant vers un repertoire local
+
+`git clone adresse_ssh_du_depot_distant`
+
+ ---
+
+## Permet de voir une liste de nos commits
+
+`git log`
+
+---
+
+## Indiquer ou envoyer votre travail
+
+`git remote add origin adresse_ssh_du_repo`
+
+---
+
+## permet de voir l'adresse du repo distant
+
+`git remote -v`
+
+---
+
+## Affiche une liste des branches(locales et distantes) existantes
+
+`git branch -a`
+
+---
+
+## Créer une nouvelle branche
+
+`git branch nom-d-une-nouvelle-branche`
+
+---
+
+## Créer une nouvelle branche et se positioner directement dessus
+
+`git checkout -b nom-d-une-nouvelle-branche`
+
+ ---
+
+## Se positioner sur une autre branche
+
+`git checkout nom-de-branche`
+
+---
+
+## Fusioner une branche active avec la branche indiquée
+
+`git merge nom-de-la-branche`
+
